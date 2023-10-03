@@ -6,7 +6,7 @@
 /*   By: khorike <khorike@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/28 13:06:25 by khorike           #+#    #+#             */
-/*   Updated: 2023/10/02 21:20:44 by khorike          ###   ########.fr       */
+/*   Updated: 2023/10/03 14:40:48 by khorike          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,8 +90,6 @@ private:
 	std::list<int> lst;
 	double lst_duration;
 
-	// void lst_insertionSort(std::list<int>::iterator left, std::list<int>::iterator right);
-	// void lst_merge(std::list<int>::iterator left, std::list<int>::iterator mid, std::list<int>::iterator right);
 	void lst_div_group(std::list<int>& input, std::list<int>& largeElements, std::list<int>& smallElements);
 	void lst_mergeSorter(std::list<int>& input, std::list<int>::iterator left, std::list<int>::iterator right);
 
